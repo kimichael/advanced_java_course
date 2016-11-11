@@ -87,9 +87,9 @@ public class Pokemon {
 
     @Override
     public String toString(){
-        return ("Name: " + this.name + "\n"
-                + "Health: " + this.health + "\n"
-                + "Attack: " + this.attack + "\n"
-                + "Defence: " + this.defence);
+        return ("Name: " + this.name + " " +
+                "Health: " + this.health + " " +
+                "Attack: " + this.attack + " " +
+                "Defence: " + this.defence);
     }
 }

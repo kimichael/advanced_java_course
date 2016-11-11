@@ -47,8 +47,8 @@ public class PokemonTrainer {
     }
 
     Pokemon choosePokemon() {
-        for (String name: this.pokemons.keySet()) {
-            System.out.println(name);
+        for (Pokemon pokemon: this.pokemons.values()) {
+            System.out.println(pokemon);
         }
         String chosenPokemon = Main.in.next();
         for (String name: this.pokemons.keySet()) {

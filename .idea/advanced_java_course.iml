@@ -10,8 +10,11 @@
       <sourceFolder url="file://$MODULE_DIR$/homework/episode2/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/homework/episode3/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/homework/episode3/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/homework/episode3/test" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="junit-4.12" level="project" />
+    <orderEntry type="library" name="hamcrest-core-1.3" level="project" />
   </component>
 </module>
